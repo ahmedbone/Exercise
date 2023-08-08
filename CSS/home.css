@@ -1,0 +1,106 @@
+body{
+    background: url(/image/Homep.jpeg);
+    background-repeat:no-repeat;
+    background-size:150vw 140vw;
+    background-position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background-color:white;
+    width: 100%;
+}
+#logo{
+    display: inline-flex;
+    width: 10%;
+    font-size: 23px;
+}
+.searchop{
+    width:20%;
+    display: inline;
+}
+.searchop form{
+    display: inline;
+}
+.searchop input{
+    display: inline;
+}
+.searchop button{
+    display: inline;
+}
+.menu{
+  width:70%;
+  text-align:  center;
+  display:inline;
+  float: right;
+  margin-top: 27px;
+}
+.menu ul{
+    display: inline flex;
+    list-style:  none;
+}
+.menu ul li{
+    width: 110px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background: green;
+    border-radius: 3px ;
+    padding: 3px;
+}
+.menu .fa-solid{
+    margin-right: 10px;
+    /* the sub menu about */
+}
+.sub_menu_about{
+    display: none;
+}
+.menu ul li:hover .sub_menu_about{
+ display: block; 
+ position: absolute; 
+ background: white;
+ margin-top: 5px;
+ margin-left:-20px; 
+}
+.menu ul li:hover .sub_menu_about ul{
+    display: block;
+    text-align:left;
+}
+.menu ul li:hover .sub_menu_about ul li{
+    border-bottom: 2px solid green;
+}
+.menu ul li:hover .sub_menu_about ul li:last-child{
+    border-bottom: none;
+}
+/* submenu-Service */
+.sub_menu_service{
+    display: none;
+}
+.menu ul li:hover .sub_menu_service{
+    display: block;
+    position: absolute;
+    background:white;
+    margin-top: 5px;
+    margin-left:-25px;
+
+}
+.menu ul li:hover .sub_menu_service ul{
+    display: block;
+    text-align: left;
+
+}
+.menu ul li:hover .sub_menu_service ul li{
+    border-bottom: 2px solid green;
+
+}
+.menu ul li:hover .sub_menu_service ul li:last-child{
+border-bottom: none;
+}
+
+
+
